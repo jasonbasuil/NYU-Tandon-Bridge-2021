@@ -38,3 +38,38 @@
 
 **Filling in the rows of a truth table**
 If there are n variables, there are 2^n rows. In the truth table for the compound proposition (p ∨ r) ∧ ¬q, there are three variables and 2^3 = 8 rows.
+
+## 1.3 - Conditional statements
+
+**_conditional operation_** is denoted with the → symbol
+
+> p → q is read "if p then q"
+
+**_conditional proposition_** a compound proposition that uses a conditional operation (or conditional statement)
+
+> p → q, the proposition p is called the **_hypothesis_**, and the proposition q is called the **_conclusion_**.
+>
+> it can be thought of like a contract between two parties
+>
+> "If you mow Mr. Smith's lawn, then he will pay you."
+> or in logic terms, a statement can only be false if is hypothesis is true and the conclusion is false
+
+**_converse, contrapositive, and inverse_**
+
+> **converse** q → p
+> "If the game is cancelled, it is raining today."
+>
+> **contrapositive** ¬q → ¬p
+> "If the game is not cancelled, then it is not raining today."
+>
+> **inverse** ¬p → ¬q
+> "If it is not raining today, the game will not be cancelled."
+
+**_biconditional operation_**
+
+> p ↔ q
+> "p if and only if q"
+> or
+> "p is necessary and sufficient for q"
+> or
+> "if p, then q, and conversely"
