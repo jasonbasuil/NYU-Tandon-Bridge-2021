@@ -117,4 +117,4 @@ If two propositions are logically equivalent, then one can be substituted for th
 **Using the laws of propositional logic to show logical equivalence**
 Substitution gives an alternate way of showing that two propositions are logically equivalent. If one proposition can be obtained from another by a series of substitutions using equivalent expressions, then the two propositions are logically equivalent. The table below shows several laws of propositional logic that are particularly useful for establishing the logical equivalence of compound propositions:
 
-![Laws of Propositional Logic](./Table 1.5.1: Laws of propositional logic.png)
+![Laws of Propositional Logic](./Table-1.5.1.png)
