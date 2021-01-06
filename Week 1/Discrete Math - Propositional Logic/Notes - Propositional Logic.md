@@ -25,3 +25,16 @@
 - **_negation_** acts on the opposite on one proposition. Kind of like the bang ! operator in javascript.
 
 > The negation of proposition p is denoted -p ("not p")
+
+## 1.2 - Evaluating compound propositions
+
+**Order of operations in absence of parentheses**
+
+> 1. ¬ (not)
+> 2. ∧ (and)
+> 3. ∨ (or)
+>
+> p ∨ q ∧ r should be read as p ∨ (q ∧ r)
+
+**Filling in the rows of a truth table**
+If there are n variables, there are 2^n rows. In the truth table for the compound proposition (p ∨ r) ∧ ¬q, there are three variables and 2^3 = 8 rows.
