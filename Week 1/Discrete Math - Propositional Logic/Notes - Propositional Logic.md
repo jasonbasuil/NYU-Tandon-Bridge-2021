@@ -73,3 +73,29 @@ If there are n variables, there are 2^n rows. In the truth table for the compoun
 > "p is necessary and sufficient for q"
 > or
 > "if p, then q, and conversely"
+
+## 1.4 - Logical equivalence
+
+**_tautology_** a compound proposition if it is always _true_
+
+> p ∨ ¬p is always true
+
+**_contradiction_** a compound proposition if it is always _false_
+
+> p ∧ ¬p is always false
+
+**_logical equivalence_** two compound propositions if they have the same truth value regardless of the truth values of their individual propositions
+
+> s and r are two compound propositions, the notation s ≡ r is used to indicate that r and s are logically equivalent
+>
+> p and ¬¬p have the same truth value regardless of whether p is true or false, so p ≡ ¬¬p
+>
+> p ↔ r and p → r are not logically equivalent because when p = F and r = T, then p ↔ r is false but p → r is true.
+
+**_De Morgan's Laws_** are logical equivalences that show you to correctly distribute a negation operation inside a parenthesized expression.
+
+> _First version (negation distribution changes disjunction operation into conjunction operation_
+> ¬(p ∨ q) ≡ (¬p ∧ ¬q)
+>
+> _Second version (swaps role of disjunction and conjunction)_
+> ¬(p ∧ q) ≡ (¬p ∨ ¬q)
