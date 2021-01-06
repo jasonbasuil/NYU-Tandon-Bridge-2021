@@ -99,3 +99,22 @@ If there are n variables, there are 2^n rows. In the truth table for the compoun
 >
 > _Second version (swaps role of disjunction and conjunction)_
 > ¬(p ∧ q) ≡ (¬p ∨ ¬q)
+
+## 1.5 - Laws of propositional logic
+
+If two propositions are logically equivalent, then one can be substituted for the other within a more complex proposition. The compound proposition after the substitution is logically equivalent to the compound proposition before the substitution.
+
+> Example:
+> p → q ≡ ¬p ∨ q. Therefore,
+>
+> (p ∨ r) ∧ (¬p ∨ q) ≡ (p ∨ r) ∧ (p → q)
+>
+> Example:
+> p → q ≡ ¬p ∨ q is applied where the variables p and q represent compound propositions:
+>
+> (¬t ∧ r) → (¬s ∨ t) ≡ ¬(¬t ∧ r ) ∨ (¬s ∨ t)
+
+**Using the laws of propositional logic to show logical equivalence**
+Substitution gives an alternate way of showing that two propositions are logically equivalent. If one proposition can be obtained from another by a series of substitutions using equivalent expressions, then the two propositions are logically equivalent. The table below shows several laws of propositional logic that are particularly useful for establishing the logical equivalence of compound propositions:
+
+![Laws of Propositional Logic](./Table 1.5.1: Laws of propositional logic.png)
