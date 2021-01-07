@@ -51,3 +51,32 @@ Two quantified statements have the same logical meaning if they have the same tr
 > S(x): x was sick
 >
 > "Everyone was not sick" is logically equivalent to "∀x ¬S(x)"
+
+## 1.8 - De Morgan's law for quantified statements
+
+The negation operation can be applied to a quantified statement
+
+> ¬∀x F(x)
+>
+> x is the set of all birds
+> F(x) is "x can fly"
+>
+> "Not all birds can fly."
+>
+> which create the following logical equivalence:
+>
+> ¬∀x F(x) ≡ ∃x ¬F(x)
+
+![Summary of De Morgan's laws for quantified statements](./Table-1.5.1.png)
+
+**_Applying De Morgan's law for quantified statements to English statements_**
+
+> P(x): x showed up with a pencil
+> C(x): x showed up with a calculator
+>
+> Sample question: Every student showed up with a calculator.
+>
+> ∀x C(x)
+> Negation: ¬∀x C(x)
+> Applying De Morgan's law: ∃x ¬C(x)
+> English: Some student showed up without a calculator.
