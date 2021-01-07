@@ -27,3 +27,27 @@
 > The logical statement ∃x P(x) is read "There exists an x, such that P(x)".
 > The statement ∃x P(x) asserts that P(x) is true for at least one possible value for x in its domain.
 > The symbol ∃ is an **existential quantifier** and the statement ∃x P(x) is called a **existentially quantified statement**.
+
+## 1.7 - Quantified statements
+
+**_quantified statement_** a logical statement that includes a universal or existential quantifier
+
+> NOTE: The quantifiers ∀ and ∃ are applied before the logical operations (∧, ∨, →, and ↔) used for propositions. This means that the statement ∀x P(x) ∧ Q(x) is equivalent to (∀x P(x)) ∧ Q(x) as opposed to ∀x (P(x) ∧ Q(x)).
+
+**_free variable_** variable x is the predicate P(x) because it is free to take on any value in the domain. The variable x in the statement ∀x P(x) is a **bound variable** because the variable is bound to a quantifier.
+
+> (∀x P(x)) ∧ Q(x)
+>
+> the x in P(x) is bound by the universal quantifier but Q(x) is not, therefore it is _NOT a proposition_
+>
+> ∀x (P(x) ∧ Q(x))
+>
+> both variable x's are bound by the univeral quantifier (∀x), therefore it is a _proposition_
+
+**_Logical equivalence with quantified statements_** \
+Two quantified statements have the same logical meaning if they have the same truth value regardless of the predicates for the elements in the domain
+
+> P(x): x came to the party
+> S(x): x was sick
+>
+> "Everyone was not sick" is logically equivalent to "∀x ¬S(x)"
