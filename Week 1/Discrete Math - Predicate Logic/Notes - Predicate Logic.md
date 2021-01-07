@@ -67,7 +67,7 @@ The negation operation can be applied to a quantified statement
 >
 > ¬∀x F(x) ≡ ∃x ¬F(x)
 
-![Summary of De Morgan's laws for quantified statements](./Table-1.5.1.png)
+![Summary of De Morgan's laws for quantified statements](./Table-1.8.1.png)
 
 **_Applying De Morgan's law for quantified statements to English statements_**
 
