@@ -80,3 +80,62 @@ The negation operation can be applied to a quantified statement
 > Negation: ¬∀x C(x)
 > Applying De Morgan's law: ∃x ¬C(x)
 > English: Some student showed up without a calculator.
+
+## 1.9 - Nested quantifiers
+
+**_nested quantifiers_** a logical expression with more than one quantifier that bind different variables in the same predicate
+
+![Nested quantifiers and bound variables](./Figure-1.9.1.png)
+
+> ∀x Q(x, y)
+> y is not bound
+>
+> ∀z ∃y Q(x, y, z)
+> not a proposition because x is free
+
+**nested quantifiers of the same type**
+
+> for the set of all non-negative integers
+>
+> ∀x ∀y (xy = 1)
+> False. Counter example x=1 y=2
+>
+> ∃x ∃y (( x+y = x ) ∧ ( y ≠ 0 ))
+> The only way for x+y = x is for y = 0. Therefore, there are no two integers x and y such that x+y = x and y ≠ 0.
+
+**alternating nested quantifiers**
+
+> ∃x ∀y M(x, y)
+> ∃x ∀y M(x, y) ↔ "There is a person who sent an email to everyone."
+>
+> switching the quantifiers switches the meaning
+>
+> ∀x ∃y M(x, y) ↔ "Every person sent an email to someone."
+
+**_two player game_** One of the players is the "existential player" and the other player is the "universal player". The variables are set from left to right in the expression.
+
+![Nested quantifiers as a two person game](./Table-1.9.1.png)
+
+> ∀x ∃y (x + y = 0)
+>
+> The universal player first selects the value of x. Regardless of which value the universal player selects for x, the existential player can select y to be -x, which will cause the sum x + y to be 0. Because the existential player can always succeed in causing the predicate to be true, the statement ∀x ∃y (x + y = 0) is true.
+>
+> Switching the order of the quantifiers gives the following statement:
+>
+> ∃x ∀y (x + y = 0)
+>
+> Now, the existential player goes first and selects a value for x. Regardless of the value chosen for x, the universal player can select some value for y that causes the predicate to be false. For example, if x is an integer, then y = -x + 1 is also an integer and x + y = 1 ≠ 0. Thus, the universal player can always win and the statement ∃x ∀y (x + y = 0) is false.
+
+> More examples:
+> For all real numbers, xy.
+>
+> ∀x ∃y (xy = 1)
+> false. If the universal player selects x to be 0, then there is no value that the existential player can select for y that can make xy = 1.
+>
+> ∃x ∀y (xy = y)
+> true. If x is chosen to be 1, then xy = y for any choice of y.
+
+**De Morgan's law with nested quantifiers** \
+De Morgan's law can be applied to logical statements with more than one quantifier. Each time the negation sign moves past a quantifier, the _quantifier changes type from universal to existential_ or from _existential to universal_:
+
+![De Morgan's laws for nested quantified statements](./Table-1.9.2.png)
