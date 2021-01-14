@@ -45,5 +45,28 @@ Data
   > compiler will try to cast 2 into a double
 
 - char
+  > characters
+  >
+  > each char uses 1 byte (8 bits)
+  >
+  > ASCII table is what we use to make decimal to characters which is then represented by binary in memory
+  >
+  > e.g. 'a' => 97 ASCII => 01100001
+  >
+  > 'single quotes' are found single characters 'a'
+  >
+  > '\n' line break
 - string
+
+  > not a built in type in C++
+  >
+  > #include<string>
+
 - bool
+  > uses 1 byte (8 bits)
+  >
+  > false is represented by a byte of 0s
+  >
+  > true is any non-zero value
+  >
+  > C++ literals: true, false
