@@ -60,3 +60,15 @@
 
 - a proof of a universal statement requires a more general argument that holds for all objects in the domain.
 - a counterexample for a conditional statement must satisfy all the hypotheses and contradict the conclusion.
+
+## 2.2 - Direct proofs
+
+- many mathematical theorems take the form of a conditional statement
+  > p -> c, where p is a proposition that is a conjunction of all the hypotheses and c is the conlclusion.
+
+**_direct proof_** of a conditional statement, the hypothesis p is assumed to be true and the conclusion c is proven as a direct result of the assumption.
+
+- many theorems are conditional statements that also have a universal quantifier such as:
+  > For every integer n, if n is odd then n^2 is odd.
+
+![Direct Proof Example](./Direct-Proof-Example.png)
