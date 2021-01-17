@@ -55,8 +55,8 @@
   >
   > n = 1: (1)2 = 1 = |1|.
 
-**_Counterexamples_** \n
-**_counterexample_** is an assignment of values to variables that shows that a universal statement is false.
+**_Counterexamples_** 
+* **_counterexample_** is an assignment of values to variables that shows that a universal statement is false.
 
 - a proof of a universal statement requires a more general argument that holds for all objects in the domain.
 - a counterexample for a conditional statement must satisfy all the hypotheses and contradict the conclusion.
