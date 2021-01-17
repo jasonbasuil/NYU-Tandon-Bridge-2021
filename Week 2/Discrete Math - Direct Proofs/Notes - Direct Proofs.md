@@ -45,7 +45,8 @@
 - If the domain of a universal statement is small, it may be easiest to prove the statement by checking each element individually. (**_proof of exhaustion_**)
   > If n ∈ {-1, 0, 1}, then n2 = |n|
   >
-  > Proof: \n
+  > Proof:
+  >
   > Check the equality for each possible value of n:
   >
   > n = -1: (-1)2 = 1 = |-1|.
@@ -54,7 +55,7 @@
   >
   > n = 1: (1)2 = 1 = |1|.
 
-**_Counterexamples_**
+**_Counterexamples_** \n
 **_counterexample_** is an assignment of values to variables that shows that a universal statement is false.
 
 - a proof of a universal statement requires a more general argument that holds for all objects in the domain.
